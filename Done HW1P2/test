@@ -1,0 +1,78 @@
+Script started on Wed 21 Sep 2016 08:35:12 PM PDT
+]0;perez236@empress:~/cs311/HWPrograms/forHW1/HW1P2[perez236@empress HW1P2]$ g++ client1.cpp
+In file included from client1.cpp:16:0:
+vstack.cpp: In member function ‘void stack::push(el_t)’:
+vstack.cpp:51:13: warning: extended initializer lists only available with -std=c++11 or -std=gnu++11 [enabled by default]
+vstack.cpp: In member function ‘void stack::pop(el_t&)’:
+vstack.cpp:70:13: warning: extended initializer lists only available with -std=c++11 or -std=gnu++11 [enabled by default]
+vstack.cpp: In member function ‘void stack::topElem(el_t&)’:
+vstack.cpp:88:13: warning: extended initializer lists only available with -std=c++11 or -std=gnu++11 [enabled by default]
+]0;perez236@empress:~/cs311/HWPrograms/forHW1/HW1P2[perez236@empress HW1P2]$ ./a.out
+Enter a postfix expression: 34+
+add 3 and 4 into 7
+
+The result of what you entered is 7!
+
+Enter 0 to do another evaluation
+0
+Enter a postfix expression: 345+*
+add 4 and 5 into 9
+mult 3 and 9 into 27
+
+The result of what you entered is 27!
+
+Enter 0 to do another evaluation
+0
+Enter a postfix expression: 722+-
+add 2 and 2 into 4
+sub 7 from 4 into 3
+
+The result of what you entered is 3!
+
+Enter 0 to do another evaluation
+0
+Enter a postfix expression: 3456++
+add 5 and 6 into 11
+add 4 and 11 into 15
+Not enough signs for the amount of numbers
+
+Enter 0 to do another evaluation
+0
+Enter a postfix expression: 12+34*45++ -+
+add 1 and 2 into 3
+mult 3 and 4 into 12
+add 4 and 5 into 9
+sub 12 from 9 into 3
+add 3 and 3 into 6
+
+The result of what you entered is 6!
+
+Enter 0 to do another evaluation
+0
+Enter a postfix expression: 1234678912345
+Not enough signs for the amount of numbers
+
+Enter 0 to do another evaluation
+0
+Enter a postfix expression: +
+Not enough numbers for the amount of signs entered
+
+Enter 0 to do another evaluation
+0
+Enter a postfix expression: 3+
+Not enough numbers for the amount of signs entered
+
+Enter 0 to do another evaluation
+0
+Enter a postfix expression: 3#
+A part of your response could not be read
+
+Enter 0 to do another evaluation
+2345+
+Thank you for using my program!
+]0;perez236@empress:~/cs311/HWPrograms/forHW1/HW1P2[perez236@empress HW1P2]$ stop
+bash: stop: command not found
+]0;perez236@empress:~/cs311/HWPrograms/forHW1/HW1P2[perez236@empress HW1P2]$ exsit[K[K[Kit
+exit
+
+Script done on Wed 21 Sep 2016 08:38:22 PM PDT

@@ -1,0 +1,39 @@
+Script started on Fri 16 Sep 2016 12:59:38 PM PDT
+]0;perez236@empress:~/cs311/HWPrograms/forHW1[perez236@empress forHW1]$ c[Kg++ client2.cpp
+In file included from client2.cpp:17:0:
+queue.cpp: In member function ‘void queue::add(el_t)’:
+queue.cpp:69:19: warning: extended initializer lists only available with -std=c++11 or -std=gnu++11 [enabled by default]
+queue.cpp: In member function ‘void queue::remove(el_t&)’:
+queue.cpp:103:13: warning: extended initializer lists only available with -std=c++11 or -std=gnu++11 [enabled by default]
+queue.cpp: In member function ‘void queue::frontElem(el_t&)’:
+queue.cpp:139:13: warning: extended initializer lists only available with -std=c++11 or -std=gnu++11 [enabled by default]
+queue.cpp: In member function ‘void queue::goToBack()’:
+queue.cpp:209:15: warning: extended initializer lists only available with -std=c++11 or -std=gnu++11 [enabled by default]
+]0;perez236@empress:~/cs311/HWPrograms/forHW1[perez236@empress forHW1]$ ./a.out
+[ B C AA AB AC ]
+There are 5 items in the queue
+[ C AA AB AC BA BB BC ]
+There are 7 items in the queue
+[ AA AB AC BA BB BC CA CB CC ]
+There are 9 items in the queue
+[ AB AC BA BB BC CA CB CC AAA AAB AAC ]
+There are 11 items in the queue
+[ AC BA BB BC CA CB CC AAA AAB AAC ABA ABB ABC ]
+There are 13 items in the queue
+[ BA BB BC CA CB CC AAA AAB AAC ABA ABB ABC ACA ACB ACC ]
+There are 15 items in the queue
+[ BB BC CA CB CC AAA AAB AAC ABA ABB ABC ACA ACB ACC BAA BAB BAC ]
+There are 17 items in the queue
+[ BC CA CB CC AAA AAB AAC ABA ABB ABC ACA ACB ACC BAA BAB BAC BBA BBB BBC ]
+There are 19 items in the queue
+[ CA CB CC AAA AAB AAC ABA ABB ABC ACA ACB ACC BAA BAB BAC BBA BBB BBC BCA BCB BCC ]
+There are 21 items in the queue
+[ CB CC AAA AAB AAC ABA ABB ABC ACA ACB ACC BAA BAB BAC BBA BBB BBC BCA BCB BCC CAA CAB CAC ]
+There are 23 items in the queue
+[ CC AAA AAB AAC ABA ABB ABC ACA ACB ACC BAA BAB BAC BBA BBB BBC BCA BCB BCC CAA CAB CAC CBA CBB CBC ]
+There are 25 items in the queue
+Error: Overflow, reached max size of the Queue.
+]0;perez236@empress:~/cs311/HWPrograms/forHW1[perez236@empress forHW1]$ exit
+exit
+
+Script done on Fri 16 Sep 2016 01:00:04 PM PDT

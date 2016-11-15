@@ -1,0 +1,16 @@
+Script started on Mon 17 Oct 2016 11:45:46 PM PDT
+]0;perez236@empress:~/cs311/HWPrograms/forHW3/hw3p1[perez236@empress hw3p1]$ g++ HW3P2client.cpp llist.cpp slist.cpp
+In file included from HW3P2client.cpp:10:0:
+llist.h:12:8: error: redefinition of ‘struct Node’
+In file included from slist.h:7:0,
+                 from HW3P2client.cpp:9:
+llist.h:12:8: error: previous definition of ‘struct Node’
+In file included from HW3P2client.cpp:10:0:
+llist.h:19:7: error: redefinition of ‘class llist’
+In file included from slist.h:7:0,
+                 from HW3P2client.cpp:9:
+llist.h:19:7: error: previous definition of ‘class llist’
+]0;perez236@empress:~/cs311/HWPrograms/forHW3/hw3p1[perez236@empress hw3p1]$ exit
+exit
+
+Script done on Mon 17 Oct 2016 11:46:10 PM PDT

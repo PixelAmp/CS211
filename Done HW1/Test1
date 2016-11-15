@@ -1,0 +1,70 @@
+Script started on Thu 15 Sep 2016 09:36:45 PM PDT
+]0;perez236@empress:~/cs311/HWPrograms/forHW1[perez236@empress forHW1]$ g++ client1.cpp
+In file included from client1.cpp:16:0:
+stack.cpp: In member function ‘void stack::push(el_t)’:
+stack.cpp:65:15: warning: extended initializer lists only available with -std=c++11 or -std=gnu++11 [enabled by default]
+stack.cpp: In member function ‘void stack::pop(el_t&)’:
+stack.cpp:81:16: warning: extended initializer lists only available with -std=c++11 or -std=gnu++11 [enabled by default]
+stack.cpp: In member function ‘void stack::topElem(el_t&)’:
+stack.cpp:98:15: warning: extended initializer lists only available with -std=c++11 or -std=gnu++11 [enabled by default]
+]0;perez236@empress:~/cs311/HWPrograms/forHW1[perez236@empress forHW1]$ ./a.out
+Enter a postfix expression: 34+
+
+The result of what you entered is 7!
+
+Enter 0 to do another evaluation
+0
+Enter a postfix expression: 345+*
+
+The result of what you entered is 27!
+
+Enter 0 to do another evaluation
+722+-     0
+Enter a postfix expression: 722+-
+
+The result of what you entered is 3!
+
+Enter 0 to do another evaluation
+0
+Enter a postfix expression: 34+56++
+
+The result of what you entered is 18!
+
+Enter 0 to do another evaluation
+0
+Enter a postfix expression: 12+34*45+-+
+
+The result of what you entered is 6!
+
+Enter 0 to do another evaluation
+0
+Enter a postfix expression: 1234567891234
+Too many numbers in the input
+
+Enter 0 to do another evaluation
+0
+Enter a postfix expression: +
+Not enough numbers for the amount of signs entered
+
+Enter 0 to do another evaluation
+3+  0
+Enter a postfix expression: 3+
+Not enough numbers for the amount of signs entered
+
+Enter 0 to do another evaluation
+0
+Enter a postfix expression: 3#
+A part of your response could not be read
+
+Enter 0 to do another evaluation
+0
+Enter a postfix expression: 2345+
+Not enough signs for the amount of numbers
+
+Enter 0 to do another evaluation
+1
+Thank you for using my program!
+]0;perez236@empress:~/cs311/HWPrograms/forHW1[perez236@empress forHW1]$ st[K[Kexit
+exit
+
+Script done on Thu 15 Sep 2016 09:38:59 PM PDT

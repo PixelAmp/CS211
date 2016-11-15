@@ -1,0 +1,139 @@
+Script started on Fri 14 Oct 2016 11:45:32 PM PDT
+]0;perez236@empress:~/cs311/HWPrograms/forHW3/hw3p1[perez236@empress hw3p1]$ g++ llist.cpp
+/usr/lib/crt1.o: In function `_start':
+(.text+0x18): undefined reference to `main'
+collect2: error: ld returned 1 exit status
+]0;perez236@empress:~/cs311/HWPrograms/forHW3/hw3p1[perez236@empress hw3p1]$ g++l[K HW3P1client.cpp
+]0;perez236@empress:~/cs311/HWPrograms/forHW3/hw3p1[perez236@empress hw3p1]$ ./a.out
+
+MENU: These are your options: 
+
+   (1) Case 1  
+   (2) Case 2  
+   (3) Case 3  
+   (4) Case 4 
+   Enter ( 0 ) to quit 
+===>1
+
+CASE 1:------------------- 
+Constructor done
+1
+list is empty
+2
+[ empty ]
+3
+4
+[ 1 2 3 4 ]
+5
+2 is now at the front, after deleteing the other front
+1 was removed from the front
+3 is now at the front, after deleteing the other front
+2 was removed from the front
+6
+[ 3 4 ]
+7
+list has elements in it
+8
+4 was removed from the rear
+3 was removed from the rear
+9
+list is empty
+Destructor done
+
+MENU: These are your options: 
+
+   (1) Case 1  
+   (2) Case 2  
+   (3) Case 3  
+   (4) Case 4 
+   Enter ( 0 ) to quit 
+===>2
+Case 2: -----------------------
+Constructor done
+1
+2
+3
+5 is now at the front, after deleteing the other front
+removed 4
+4
+5
+[ 5 6 8 9 ]
+6
+7
+9
+[ 4 5 6 8 7 9 ]
+8
+9
+Out of range
+10
+Out of range
+11
+[ 4 5 6 8 7 9 10 ]
+12
+5 is now at the front, after deleteing the other front
+deleted 4 at 1
+13
+deleted 10 at 6
+[ 5 6 8 7 9 ]
+14
+This doesn't work and I dont have time to fix it :(
+15
+16
+Out of range
+17
+[ 5 6 8 7 ]
+18
+deleted 7
+deleted 8
+deleted 6
+deleted 5
+19
+[ empty ]
+Destructor done
+
+MENU: These are your options: 
+
+   (1) Case 1  
+   (2) Case 2  
+   (3) Case 3  
+   (4) Case 4 
+   Enter ( 0 ) to quit 
+===>3
+Case 3:-------------------- 
+Constructor done
+1
+Out of range
+2
+Nothing to delete
+Destructor done
+
+MENU: These are your options: 
+
+   (1) Case 1  
+   (2) Case 2  
+   (3) Case 3  
+   (4) Case 4 
+   Enter ( 0 ) to quit 
+===>4
+Case 4:------------------------ 
+Constructor done
+1
+Out of range
+2
+Nothing to delete
+Destructor done
+
+MENU: These are your options: 
+
+   (1) Case 1  
+   (2) Case 2  
+   (3) Case 3  
+   (4) Case 4 
+   Enter ( 0 ) to quit 
+===>0
+]0;perez236@empress:~/cs311/HWPrograms/forHW3/hw3p1[perez236@empress hw3p1]$ :)
+bash: syntax error near unexpected token `)'
+]0;perez236@empress:~/cs311/HWPrograms/forHW3/hw3p1[perez236@empress hw3p1]$ exit
+exit
+
+Script done on Fri 14 Oct 2016 11:46:24 PM PDT

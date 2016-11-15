@@ -1,0 +1,28 @@
+Script started on Mon 24 Oct 2016 06:51:24 PM PDT
+]0;perez236@empress:~/cs311/HWPrograms/forHW3[perez236@empress forHW3]$ g++ hw3ec.cpp
+]0;perez236@empress:~/cs311/HWPrograms/forHW3[perez236@empress forHW3]$ ./a.out
+llist Constructor done
+slist Constructor done
+llist Constructor done
+slist Constructor done
+
+1. L1 is empty and L2 is empty
+true
+2. L1 is empty and L2 has 2 elements
+false
+3. L2 is empty and L1 has 2 elements
+false
+4. L1 has 1,2,3 and L2 has 1,2,3
+true
+5. L1 has 1,2,3 and L2 has 1,2
+false
+6. L1 has 1,2,3 and L2 has 1,2,3,4
+false
+6. L1 has 1,2,3 and L2 has 1,2,4
+false
+Destructor done
+Destructor done
+]0;perez236@empress:~/cs311/HWPrograms/forHW3[perez236@empress forHW3]$ exit
+exit
+
+Script done on Mon 24 Oct 2016 06:51:42 PM PDT
